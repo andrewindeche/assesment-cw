@@ -13,10 +13,14 @@ export default function App() {
     "Ghosting",
   ]);
 
+   const handleSearch = (query: string) => {
+    console.log("Searching for:", query);
+  };
+
   return (
     <main className="bg-black min-h-screen text-white">
       <Header />
-      <HeroSection />
+      <HeroSection onSearch={handleSearch} />
       <TagList title="Trending" tags={tags} />
       <TagList title="For you" tags={tags} />
     </main>
