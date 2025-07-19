@@ -98,6 +98,10 @@
 - Issue: Paragraph formatting does not match the design
 - Fix: Adjust paragraph, font size and spacing to match design
 
+18. Line 14
+- Issue: The hero background image and spacing do not match the design
+- Fix: Push the text downward to create spacing that matches the design
+
 ### [App.tsx] 
 19. Line 14
 - Issue: There is no consistent spacing below the tag elements matching the design
