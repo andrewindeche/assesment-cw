@@ -64,8 +64,8 @@
 - Fix: Replaced inline styles with Tailwind CSS classes for consistent and maintainable styling
 
 10. Line 10
-- Issue: Incorrect word used ("Worptionary" instead of "Worctionary")
-- Fix: Replaced "Worptionary" with the correct spelling, "Worctionary"
+- Issue: Incorrect word used ("Wortionary" instead of "Worctionary")
+- Fix: Replaced "Wortionary" with the correct spelling, "Worctionary"
 
 11. Line 8,9,10
 - Issue: Font size and spacing do not match the design's typography
