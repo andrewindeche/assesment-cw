@@ -111,3 +111,8 @@
 20. Line 18
 - Issue: The tags colors appear lighter(white) than in the design
 - Fix: Adjust the tags colors to the gray to match design
+
+ ### [App.tsx] 
+ 21. Line 17, Line 9
+ Issue: The components and page are not responsive.
+ Fix: Import the useIsMobile hook and pass the appropriate props to the components.
