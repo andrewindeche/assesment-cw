@@ -5,7 +5,7 @@ import { Input } from '@/components/ui/input';
 function Header() {
   return (
     <header
-      className="flex items-center justify-between px-9 py-4 bg-black border-b border-gray-400"
+      className="flex items-center justify-between px-9 py-3 bg-black border-b border-gray-400"
       aria-labelledby="header section"
     >
       <div className="flex items-center gap-3">
