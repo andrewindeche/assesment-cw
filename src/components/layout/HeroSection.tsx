@@ -26,7 +26,7 @@ function HeroSection({ onSearch, isMobile }: HeroSectionProps) {
         }`}
       >
         <h1
-          className={`text-white font-black max-w-3xl ${
+          className={`text-white tracking-tight font-black max-w-3xl ${
             isMobile ? 'text-2xl' : 'text-4xl md:text-5xl'
           }`}
         >
