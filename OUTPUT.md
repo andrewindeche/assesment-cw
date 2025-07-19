@@ -74,3 +74,7 @@
 12. Line 7
 - Issue: Padding of the page does not match the image’s padding style
 - Fix: Adjusted padding to px-9 for consistency with the image's style
+
+13. Line 26
+- Issue: SearchBar is fully rounded, which does not match the image’s rounded style
+- Fix: Adjusted the border radius to rounded-md for a more rectangular appearance
