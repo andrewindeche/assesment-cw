@@ -54,6 +54,7 @@
 - Issue: No index to distinguish tags
 - Fix: Add an index to prevent inconsistencies for multiple tags
 
-8. Line 19
-- Issue: tags have no Accessibility
-- Add Aria-Label for readability on tags
+### [TagList.tsx] [Searchbar.tsx] [Header.tsx]
+8. Taglist.tsx Line 19, SearchBar.tsx Line 26, Header.tsx Line 25
+- Issue: tags and inputs which are calls to action have no Accessibility
+- Add Aria-Label for readability on tags and search bars
