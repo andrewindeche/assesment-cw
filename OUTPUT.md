@@ -32,3 +32,8 @@
 
 - Issue: UseEffect syncs initial value repeatedly leading to rerenders,excessive API calls
 - Fix: Use debounce for delays and abstract the search logic into useDebouncedSearch hook
+
+4. Use Prettier
+
+- Issue: Spacing,inconsistent issues,Unreadable code 
+- Fix: Add prettier rules to make code clean, consistent and readable
