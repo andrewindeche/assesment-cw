@@ -13,9 +13,14 @@
 
 ### [App.tsx]
 
-1. Components/Functions in App.tsx page.
-   Header in line 79, App in line 111, BoxArea108 in line 45,
-   BoxArea97 in line 26, TagList in line 8
+1. All Functions in App.tsx page.
+      <b>Changes</b>
+      Header in line 79 converted to layout/Header.tsx, 
+      App in line 111 retained, 
+      BoxArea108 in line 45 converted to features/SearchBar,
+      BoxArea97 in line 26 converted to layout/HeroSection, 
+      TagList in line 8 converted to features/Taglist
+
    - Issue: Monolithic page structure with multiple responsibilities.
    - Fix: Modularize structure into reusable feature based components.
 2. ...
