@@ -23,7 +23,7 @@ function Header() {
             type="text"
             value="search"
             aria-label="header search input"
-            className="pl-9 bg-gray-800 text-white border-none focus:ring-0 rounded-full"
+            className="pl-12 bg-gray-800 text-white border-none focus:ring-0 rounded-md"
           />
         </div>
         <Avatar className="w-8 h-8">
