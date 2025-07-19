@@ -84,3 +84,7 @@
 14. Line 18, Line 29
 - Issue: The magnifying glass icon and adjacent are incorrectly positioned relative to the design.
 - Fix: Correct the position of the magnifying glass
+
+15. Line 32 and Line 33
+- Issue: The avatar image is missing, and a fallback "U" is displayed.
+- Fix: Replace the current avatar with a real image that matches the design.
