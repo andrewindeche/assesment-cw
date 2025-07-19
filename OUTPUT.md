@@ -81,6 +81,6 @@
 - Issue: The SearchBar has wider dimensions than the design’s design style
 - Fix: Adjusted the width to w-40 to match the design's design dimensions
 
-14. Line 18
-- Issue: The magnifying glass icon is incorrectly positioned relative to the design.
+14. Line 18, Line 29
+- Issue: The magnifying glass icon and adjacent are incorrectly positioned relative to the design.
 - Fix: Correct the position of the magnifying glass
