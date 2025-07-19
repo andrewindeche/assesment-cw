@@ -51,8 +51,8 @@
 
 ### [TagList.tsx]
 7. Line 14 and 16
--Issue: No index to distinguish tags
--Fix: Add an index to prevent inconsistencies for multiple tags
+- Issue: No index to distinguish tags
+- Fix: Add an index to prevent inconsistencies for multiple tags
 
 8. Line 19
 - Issue: tags have no Accessibility
