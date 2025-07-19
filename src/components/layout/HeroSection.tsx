@@ -16,7 +16,7 @@ function HeroSection({ onSearch, isMobile }: HeroSectionProps) {
       <img
         src="/task1/hero-bg.png"
         alt=""
-        className={`w-full object-cover rounded-xl ${
+        className={`w-full object-cover rounded-xl filter brightness-160 contrast-120 ${
           isMobile ? 'h-72' : 'h-[34rem]'
         }`}
       />
