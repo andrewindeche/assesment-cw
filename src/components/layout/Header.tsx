@@ -4,9 +4,9 @@ import { Input } from '@/components/ui/input';
 
 function Header() {
   return (
-    <header className="flex items-center justify-between px-6 py-4 bg-black border-b border-gray-800" aria-labelledby="header section">
-      <div className="flex items-center gap-4">
-        <img src="/task1/logo.png" alt="Logo" className="w-4 h-4" />
+    <header className="flex items-center justify-between px-9 py-4 bg-black border-b border-gray-800" aria-labelledby="header section">
+      <div className="flex items-center gap-3">
+        <img src="/task1/logo.png" alt="Logo" className="w-3.5 h-3.5" />
         <div className="text-white font-bold text-md">Worctionary</div>
       </div>
 
