@@ -11,7 +11,7 @@ export default function App() {
   };
 
   return (
-    <main className="bg-black min-h-screen text-white">
+    <main className="bg-black pb-10 min-h-screen text-white">
       <Header />
       <HeroSection onSearch={handleSearch} />
       <TagList title="Trending" tags={tags} />
