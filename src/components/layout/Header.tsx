@@ -29,8 +29,8 @@ function Header() {
             className="pl-12 w-37 h-10 bg-[#2b2e34] text-gray-400 text-2xl font-medium border-none focus:ring-0 rounded-md"
           />
         </div>
-        <Avatar className="w-10 h-10">
-          <AvatarImage src="/avatar.jpg" />
+        <Avatar className="w-18 h-10">
+          <AvatarImage src="assets/avatar.png" />
           <AvatarFallback>U</AvatarFallback>
         </Avatar>
       </div>
