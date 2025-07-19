@@ -1,21 +1,27 @@
 import { Badge } from "@/components/ui/badge";
 
-function TagList({ title, tags }) {
+type TagListProps = {
+  title: string;
+  tags: string[];
+  onTagClick?: (tag: string) => void;
+};
+
+export default function TagList({ title, tags, onTagClick }: TagListProps) {
   return (
-    <div className="mt-8 px-6 max-w-5xl mx-auto">
-      <div className="text-white text-lg font-semibold mb-4">{title}</div>
+    <section className="mt-8 px-6 max-w-5xl mx-auto">
+      <h2 className="text-white text-lg font-semibold mb-4">{title}</h2>
       <div className="flex flex-wrap gap-3">
-        {tags.map((tag) => (
+        {tags.map((tag, i) => (
           <Badge
-            key={tag}
-            className="bg-gray-800 text-white hover:bg-gray-700 cursor-pointer"
+            key={`${tag}-${i}`}
+            onClick={() => onTagClick?.(tag)}
+            className="bg-gray-800 text-white hover:bg-gray-700 cursor-pointer transition duration-200"
+            aria-label={`Search tag: ${tag}`}
           >
             {tag}
           </Badge>
         ))}
       </div>
-    </div>
+    </section>
   );
 }
-
-export default TagList;
