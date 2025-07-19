@@ -3,6 +3,8 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Search } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
+import Header from "@/components/layout/Header";
+
 
 function TagList({ title, tags }) {
   return (
