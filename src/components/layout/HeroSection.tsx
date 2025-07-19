@@ -1,10 +1,6 @@
 import SearchBar from "@/components/features/SearchBar";
 
-function HeroSection() {
-  const onSearch = (search: string) => {
-    console.log(search);
-    // implementing the search logic is not required for this task
-   };
+function HeroSection({ onSearch }: { onSearch: (search: string) => void }) {
    return (
     <div className="relative w-full max-w-5xl mx-auto rounded-xl overflow-hidden mt-8">
       <img src="/task1/hero-bg.png" className="w-full h-96 object-cover" />
