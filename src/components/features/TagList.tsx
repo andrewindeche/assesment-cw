@@ -6,7 +6,7 @@ type TagListProps = {
   onTagClick?: (tag: string) => void;
 };
 
-export default function TagList({ title, tags, onTagClick }: TagListProps) {
+function TagList({ title, tags, onTagClick }: TagListProps) {
   return (
     <section className="mt-8 px-6 max-w-5xl mx-auto">
       <h2 className="text-white text-lg font-semibold mb-4">{title}</h2>
@@ -25,3 +25,4 @@ export default function TagList({ title, tags, onTagClick }: TagListProps) {
     </section>
   );
 }
+export default function TagList;
