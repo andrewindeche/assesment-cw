@@ -57,3 +57,8 @@
 8. Accessibility audit — TagList.tsx (line 19), SearchBar.tsx (line 26), Header.tsx (lines 25 and 7),   HeroSection.tsx (line 5)
 - Issue: Interactive elements like tags and inputs lacked accessibility features
 - Fix: Added aria-label attributes and replaced generic <div> tags with semantic HTML where applicable
+
+### [Header.tsx]
+9. Line 14 and 29
+- Issue: Issue: Inconsistent use of inline styles for styling elements
+- Fix: Replaced inline styles with Tailwind CSS classes for consistent and maintainable styling
