@@ -15,7 +15,7 @@ export default function TagList({ title, tags, onTagClick }: TagListProps) {
           <Badge
             key={`${tag}-${i}`}
             onClick={() => onTagClick?.(tag)}
-            className="bg-gray-800 text-gray-400 hover:bg-gray-700 cursor-pointer transition duration-200"
+            className="bg-gray-800 font-medium text-gray-400 hover:bg-gray-700 cursor-pointer transition duration-200"
             aria-label={`Search tag: ${tag}`}
           >
             {tag}
