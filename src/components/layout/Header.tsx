@@ -22,6 +22,7 @@ function Header() {
           <Input
             type="text"
             value="search"
+            aria-label="header search input"
             className="pl-9 bg-gray-800 text-white border-none focus:ring-0 rounded-full"
           />
         </div>
