@@ -94,6 +94,9 @@
 - Fix: Adjust the border to a lighter shade of gray to match the design
 
 ### [HeroSection.tsx]
+17. Line 10 and Line 11
+- Issue: Paragraph formatting does not match the design
+- Fix: Adjust paragraph, font size and spacing to match design
 
 ### [App.tsx] 
 19. Line 14
