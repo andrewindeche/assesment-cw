@@ -4,7 +4,7 @@ import { Input } from '@/components/ui/input';
 
 function Header() {
   return (
-    <header className="flex items-center justify-between px-6 py-4 bg-black border-b border-gray-800">
+    <header className="flex items-center justify-between px-6 py-4 bg-black border-b border-gray-800" aria-labelledby="header section">
       <div className="flex items-center gap-2">
         <img src="/task1/logo.png" alt="Logo" className="w-10 h-10" />
         <div className="text-white font-semibold text-lg">Wortionary</div>
