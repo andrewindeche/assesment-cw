@@ -28,6 +28,6 @@
    - Issue: Non-descriptive naming conventions reduces readability.
    - Fix: Renamed components using clearer,descriptive names.
    
-3. ...
-   - Issue: ...
-   - Fix: ...
+3.  SearchBar in line 15 and 16
+   - Issue: UseEffect syncs initial value repeatedly leading to rerenders,excessive API calls
+   - Fix: Use debounce for delays and abstract the search logic into useDebouncedSearch hook
