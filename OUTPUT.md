@@ -68,15 +68,19 @@
 - Fix: Replaced "Worptionary" with the correct spelling, "Worctionary"
 
 11. Line 8,9,10
-- Issue: Font size and spacing do not match the image's typography
-- Fix: Updated the image dimensions to w-4 h-4, set the font size to text-md, and applied font-bold for the correct font weight
+- Issue: Font size and spacing do not match the design's typography
+- Fix: Updated the dimensions to w-4 h-4, set the font size to text-md, and applied font-bold for the correct font weight
 
 12. Line 7
-- Issue: Padding of the page does not match the image’s padding style
-- Fix: Adjusted padding to px-9 for consistency with the image's style
+- Issue: Padding of the page does not match the design’s padding style
+- Fix: Adjusted padding to px-9 for consistency with the design's style
 
 13. Line 26
-- Issue: SearchBar is fully rounded, which does not match the image’s rounded style
+- Issue: SearchBar is fully rounded, which does not match the design’s rounded style
 - Fix: Adjusted the border radius to rounded-md for a more rectangular appearance
-- Issue: The SearchBar has wider dimensions than the image’s style
-- Fix: Adjusted the width to w-40 to match the image's dimensions
+- Issue: The SearchBar has wider dimensions than the design’s design style
+- Fix: Adjusted the width to w-40 to match the design's design dimensions
+
+14. Line 18
+- Issue: The magnifying glass icon is incorrectly positioned relative to the design.
+- Fix: Correct the position of the magnifying glass
