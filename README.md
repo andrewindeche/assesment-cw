@@ -64,7 +64,7 @@ All changes, including the `OUTPUT.md` file, have been committed and pushed to t
 
 Changes (including the `OUTPUT.md` file) have been commited and pushed to the repository and github account.
 
-### 5. Send the link to the repository
+### 5. Link to the repository
 
 https://github.com/andrewindeche/assesment-cw
 
