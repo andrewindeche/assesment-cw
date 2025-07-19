@@ -23,7 +23,7 @@ function SearchBar({
       <Search className="text-gray-400 mr-3" />
       <Input
         value={input}
-        aria-label= "hero section search input"
+        aria-label="hero section search input"
         onChange={(e) => setInput(e.target.value)}
         type="text"
         placeholder="Type to search..."

@@ -4,14 +4,7 @@ import HeroSection from '@/components/layout/HeroSection';
 import TagList from '@/components/features/TagList';
 
 export default function App() {
-  const [tags] = useState([
-    'NFT',
-    'Metaverse',
-    'Sustainable',
-    'Sonder',
-    'FOMO',
-    'Ghosting',
-  ]);
+  const [tags] = useState(['NFT', 'Metaverse', 'Sustainable', 'Sonder', 'FOMO', 'Ghosting']);
 
   const handleSearch = (query: string) => {
     console.log('Searching for:', query);
