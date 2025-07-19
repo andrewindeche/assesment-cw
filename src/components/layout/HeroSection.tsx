@@ -1,6 +1,6 @@
 import SearchBar from "@/components/features/SearchBar";
 
-function BoxArea97() {
+function HeroSection() {
   const onSearch = (search: string) => {
     console.log(search);
     // implementing the search logic is not required for this task
@@ -17,4 +17,4 @@ function BoxArea97() {
     </div>
   );
   }
-export default BoxArea97;
+export default HeroSection;
