@@ -16,8 +16,8 @@
 1. Components/Functions in App.tsx page.
    Header in line 79, App in line 111, BoxArea108 in line 45,
    BoxArea97 in line 26, TagList in line 8
-   - Issue: Monolithic structure with multiple responsibilities in single page.
-   - Fix: Modularize structure into reusable feature based modules and elements for maintainability
+   - Issue: Monolithic page structure with multiple responsibilities.
+   - Fix: Modularize structure into reusable feature based modules and elements.
 2. ...
    - Issue: ...
    - Fix: ...
