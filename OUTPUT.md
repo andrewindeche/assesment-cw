@@ -86,5 +86,11 @@
 - Fix: Correct the position of the magnifying glass
 
 15. Line 32 and Line 33
-- Issue: The avatar image is missing, and a fallback "U" is displayed.
-- Fix: Replace the current avatar with a real image that matches the design.
+- Issue: The avatar image is missing, and a fallback "U" is displayed
+- Fix: Replace the current avatar with a real image that matches the design
+
+16. Line 8
+- Issue: The border color appears darker than in the design.
+- Fix: Adjust the border to a lighter shade of gray to match the design.
+
+### [HeroSection.tsx]
