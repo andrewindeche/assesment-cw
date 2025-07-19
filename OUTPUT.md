@@ -78,3 +78,5 @@
 13. Line 26
 - Issue: SearchBar is fully rounded, which does not match the image’s rounded style
 - Fix: Adjusted the border radius to rounded-md for a more rectangular appearance
+- Issue: The SearchBar has wider dimensions than the image’s style
+- Fix: Adjusted the width to w-40 to match the image's dimensions
