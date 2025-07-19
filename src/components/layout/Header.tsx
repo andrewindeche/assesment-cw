@@ -11,7 +11,7 @@ function Header() {
       </div>
 
       <div className="flex items-center gap-4">
-        <div style={{ position: 'relative' }}>
+        <div className="relative">
           <span>
             <span>
               <span className="absolute left-3 top-2.5">
@@ -26,7 +26,7 @@ function Header() {
             className="pl-9 bg-gray-800 text-white border-none focus:ring-0 rounded-full"
           />
         </div>
-        <Avatar style={{ width: '32px', height: '32px' }}>
+        <Avatar className="w-8 h-8">
           <AvatarImage src="/avatar.jpg" />
           <AvatarFallback>U</AvatarFallback>
         </Avatar>
