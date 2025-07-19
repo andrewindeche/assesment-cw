@@ -120,4 +120,8 @@
 ### [HeroSection.tsx] 
 22. Line 29
 Issue: Letter spacing does not match the design.
-Fix: Slightly tighten the tracking of the text.
+Fix: Slightly tighten the tracking of the text
+
+23. Line 19
+Issue: Image brightness and contrast does not match the design
+Fix: Adjust brightness and contrast
