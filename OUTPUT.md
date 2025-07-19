@@ -66,3 +66,7 @@
 10. Line 10
 - Issue: Incorrect word used ("Worptionary" instead of "Worctionary")
 - Fix: Replaced "Worptionary" with the correct spelling, "Worctionary"
+
+11. Line 8,9,10
+- Issue: Font size and spacing do not match the image's typography
+- Fix: Updated the image dimensions to w-4 h-4, set the font size to text-md, and applied font-bold for the correct font weight
