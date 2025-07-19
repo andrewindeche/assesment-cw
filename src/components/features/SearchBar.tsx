@@ -20,7 +20,7 @@ function SearchBar({
 
   return (
     <div className="flex items-center bg-black px-4 py-2 rounded-md w-full max-w-xl mt-6 shadow-lg">
-      <Search className="text-gray-400 w-5 h-5 mr-2" />
+      <Search className="text-gray-400 w-5 h-5 mr-1" />
       <Input
         value={input}
         aria-label="hero section search input"
@@ -29,7 +29,7 @@ function SearchBar({
         placeholder="Type to search..."
         className="flex-1 bg-transparent border-none text-white placeholder:text-gray-400 focus:ring-0 px-2 text-base sm:text-sm"
       />
-      <Button className="bg-blue-500 hover:bg-blue-700 text-white px-5 py-2 ml-2 text-sm sm:text-xs">
+      <Button className="bg-blue-500 hover:bg-blue-700 text-white px-6 py-5 ml-2 text-sm sm:text-xs">
         Search
       </Button>
     </div>
