@@ -1,20 +1,20 @@
-import { useState} from "react";
-import Header from "@/components/layout/Header";
-import HeroSection from "@/components/layout/HeroSection";
-import TagList from "@/components/features/TagList";
+import { useState } from 'react';
+import Header from '@/components/layout/Header';
+import HeroSection from '@/components/layout/HeroSection';
+import TagList from '@/components/features/TagList';
 
 export default function App() {
   const [tags, setTags] = useState([
-    "NFT",
-    "Metaverse",
-    "Sustainable",
-    "Sonder",
-    "FOMO",
-    "Ghosting",
+    'NFT',
+    'Metaverse',
+    'Sustainable',
+    'Sonder',
+    'FOMO',
+    'Ghosting',
   ]);
 
-   const handleSearch = (query: string) => {
-    console.log("Searching for:", query);
+  const handleSearch = (query: string) => {
+    console.log('Searching for:', query);
   };
 
   return (

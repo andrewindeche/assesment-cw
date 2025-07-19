@@ -1,9 +1,8 @@
-import { useState, useEffect } from "react";
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
-import { Search } from "lucide-react";
-import useDebouncedSearch from "@/hooks/useDebouncedSearch";
-
+import { useState, useEffect } from 'react';
+import { Input } from '@/components/ui/input';
+import { Button } from '@/components/ui/button';
+import { Search } from 'lucide-react';
+import useDebouncedSearch from '@/hooks/useDebouncedSearch';
 
 function SearchBar({
   initialValue,
@@ -29,9 +28,7 @@ function SearchBar({
         placeholder="Type to search..."
         className="flex-1 bg-transparent border-none text-white placeholder:text-gray-400 focus:ring-0"
       />
-      <Button className="bg-blue-600 hover:bg-blue-700 text-white ml-4">
-        Search
-      </Button>
+      <Button className="bg-blue-600 hover:bg-blue-700 text-white ml-4">Search</Button>
     </div>
   );
 }

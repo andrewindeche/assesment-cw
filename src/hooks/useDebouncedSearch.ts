@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect } from 'react';
 
 function useDebouncedSearch(value: string, delay: number = 300) {
   const [debouncedValue, setDebouncedValue] = useState(value);

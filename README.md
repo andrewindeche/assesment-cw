@@ -25,7 +25,6 @@ Your ability to:
 
 1. **Accessibility**
 2. **Code Best Practices**
-
    - React Hooks
    - Component Patterns
    - Performance
@@ -35,7 +34,6 @@ Your ability to:
 4. **Reusability & Maintainability**
 
 5. **UI Implementation**
-
    - Pixel-perfect design matching
    - Responsive behavior (mobile/desktop)
    - Consistent styling system
