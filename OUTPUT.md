@@ -60,5 +60,9 @@
 
 ### [Header.tsx]
 9. Line 14 and 29
-- Issue: Issue: Inconsistent use of inline styles for styling elements
+- Issue: Inconsistent use of inline styles for styling elements
 - Fix: Replaced inline styles with Tailwind CSS classes for consistent and maintainable styling
+
+10. Line 10
+- Issue: Incorrect word used ("Worptionary" instead of "Worctionary")
+- Fix: Replaced "Worptionary" with the correct spelling, "Worctionary"
