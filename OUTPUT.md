@@ -14,47 +14,46 @@
 ### [App.tsx] [SearchBar.tsx] [HeroSection.tsx]
 
 1. All Functions in App.tsx page.
-   <b>Changes</b>
-   Header in line 79 converted to layout/Header.tsx,
-   App in line 111 retained,
+   Header (line 79) moved to layout/Header.tsx
+   App (line 111) retained as is
+   BoxArea108 (line 45) converted to features/SearchBar
+   BoxArea97 (line 26) converted to layout/HeroSection
+   TagList (line 8) converted to features/TagList
 
-   BoxArea108 in line 45 converted to features/SearchBar,
-   BoxArea97 in line 26 converted to layout/HeroSection,
-   TagList in line 8 converted to features/Taglist
-   - Issue: Monolithic page structure with multiple responsibilities.
-   - Fix: Modularized structure into reusable feature based components.
+   - Issue: Monolithic page structure with multiple responsibilities
+   - Fix: Modularized and separated concerns of structure into reusable feature based components
 
 ### [SearchBar.tsx]  [HeroSection.tsx]
 
-2. HeroSection naming in line 3 and Searchbar naming in line 7 
-- Issue: Non-descriptive naming conventions reduces readability.
-- Fix: Renamed components using clearer,descriptive names.
+2. Component naming — HeroSection (line 3) and SearchBar (line 7)
+   - Issue: Non-descriptive naming conventions reduce readability
+   - Fix: Renamed components using clearer, more descriptive names
 
-3. SearchBar in line 15 and 16
-- Issue: UseEffect syncs initial value repeatedly leading to rerenders,excessive API calls
-- Fix: Use debounce for delays and abstract the search logic into useDebouncedSearch hook
+3. SearchBar behavior — lines 15–16
+- Issue: useEffect syncs the initial value repeatedly, which can lead to unnecessary re-renders and     excessive API calls
+- Fix: Implemented a debounce mechanism and abstracted search logic into a useDebouncedSearch hook
 
 ### [package.json] [package-lock.json] 
 
-4. Use Prettier
-- Issue: Spacing,inconsistent issues,Unreadable code 
-- Fix: Add prettier rules to make code clean, consistent and readable. npm run format
+4. Code formatting
+- Issue: Inconsistent spacing and formatting across the codebase
+- Fix: Applied consistent formatting using Prettier
 
 ### [App.tsx] [TagList.tsx]
-5. App.tsx line 7
-- Issue: Unused state setTags causing Lint bug
-- Fix: remove unused state
+5. App.tsx — line 7
+- Issue: Unused state setTags caused inconsistency with linting rules
+- Fix: Removed the unused state
 
-6. TagListProps line 3
-- Issue: Hardcoded tags, tags not reusable, destructured taglist needed connection to App.tsx
-- Fix: Add prop to allow parent component(App.tsx) pass function when tag is clicked. 
+6. TagListProps — line 3
+- Issue: Tags were hardcoded, not reusable; TagList required prop-based data from App.tsx
+- Fix: Fix: Added a TagListProps interface and passed tag data as props 
 
 ### [TagList.tsx]
 7. Line 14 and 16
-- Issue: No index to distinguish tags
-- Fix: Add an index to prevent inconsistencies for multiple tags
+- Issue: No unique index for tags, which could cause issues when similar tag names exist
+- Fix: Added a unique index for each tag in the render loop
 
 ### [TagList.tsx] [Searchbar.tsx] [Header.tsx]
-8. Taglist.tsx Line 19, SearchBar.tsx Line 26, Header.tsx Line 25
-- Issue: tags and inputs which are calls to action have no Accessibility
-- Add Aria-Label for readability on tags and search bars
+8. Accessibility audit — TagList.tsx (line 19), SearchBar.tsx (line 26), Header.tsx (lines 25 and 7),   HeroSection.tsx (line 5)
+- Issue: Interactive elements like tags and inputs lacked accessibility features
+- Fix: Added aria-label attributes and replaced generic <div> tags with semantic HTML where applicable
