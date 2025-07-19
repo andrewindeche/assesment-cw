@@ -11,7 +11,7 @@ function HeroSection({ onSearch }: { onSearch: (search: string) => void }) {
     alt=""
     className="w-full h-[34rem] object-cover rounded-xl"
   />
-  <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center gap-6 px-4">
+  <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center gap-6 px-4 pt-20 pb-10">
     <h1 className="text-4xl md:text-5xl font-black text-white max-w-3xl">
       Search for words, phrases and meanings
     </h1>
