@@ -3,7 +3,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Search } from "lucide-react";
 
-function BoxArea108({
+function SearchBar({
   initialValue,
   onSearch,
 }: {
@@ -36,4 +36,4 @@ function BoxArea108({
     </div>
   );
 }
-export default BoxArea108;
+export default SearchBar;
